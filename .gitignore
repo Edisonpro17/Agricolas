@@ -1,0 +1,27 @@
+# Archivos de entorno (SECRETOS)
+.env
+
+# Carpetas de Python
+__pycache__/
+*.pyc
+
+# Entorno virtual
+venv/
+env/
+
+# Archivos de sistema y VS Code
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos temporales generados por tu app
+*.p12
+backend/temp/
+
+# --- BLOQUEAR TODAS LAS CARPETAS DE SALIDA ---
+GENERADOS/
+GENERADOS_NC/
+FIRMADOS/
+FIRMADOS_NC/
+AUTORIZADOS/
+AUTORIZADOS_NC/
